@@ -1,0 +1,110 @@
+body{
+    background-color: #0d1a2d;
+    text-align: center;
+    font-family: Outfit;
+    height: 900px;
+}
+.nft-flex{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #15273f;
+    width: 350px;
+    height: 600px;
+    margin-top: 450px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 18px 2px rgba(34, 60, 80, 0.24);
+}
+.nft-img{
+    margin-bottom: 26px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.nft-img:hover{
+    -webkit-filter: sepia(1) hue-rotate(320deg) saturate(10);
+    filter: invert(71%) sepia(90%) saturate(1880%) hue-rotate(135deg) brightness(83%) contrast(101%);
+    background-image: url(../images/icon-view.svg);
+    background-repeat: no-repeat;
+    transition-duration: 0.1s;
+}    
+.nft-text {   
+    margin-left: 23px;
+    text-align: left;
+}
+.nft-text a{
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    font-size: 22px;
+    color: #fefeff;
+    text-decoration: none;
+}
+.nft-text a:hover{
+    color: #00dde0;
+    transition-duration: 0.5s;
+}
+.nft-text p {
+    font-size: 18px;
+    color: #7f94af;
+}
+.nft-flex-bottom{
+    margin-left: -35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+      
+}
+#nft-ETH{
+    background-image: url(../images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    color: #00dde0;
+    background-position-x: 5px;
+    margin-left: -7px;
+    padding-left: 24px;
+    font-size: 16px;
+}
+#nft-timer{
+    background-image: url(../images/icon-clock.svg);
+    background-repeat: no-repeat;
+    margin: 15px -5px 0 33px;
+    padding-left: 25px;
+    background-position: 2px;
+    background-position-y: 3px;
+    font-size: 16px;
+}
+.nft-creator{
+    padding-bottom: 10px;
+    background-image: url(../images/image-avatar.png);
+    background-size: 31px;
+    background-position-y: 16px;
+    background-repeat: no-repeat;
+    border-top: 1px solid #2f4159;
+    margin-right: 33px;
+}
+.nft-creator-text{
+    padding-left: 49px;
+}
+#nft-creator-href{
+    font-size: 15px;
+}
+.attribution{
+    color: #fefeff;
+}
+.attribution a{
+    text-decoration: none;
+}
+.attribution a:hover{
+    color: #00dde0;
+    transition-duration: 0.5s;
+}
+
+@media(max-width: 380px) {
+    #nft-media{
+        height: 667px;
+        margin-top: -410px;
+    }
+}
